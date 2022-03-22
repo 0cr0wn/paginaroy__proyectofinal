@@ -1,0 +1,6 @@
+# Ignora carpeta node
+node_modules
+# carpeta vsc
+.vscode
+
+

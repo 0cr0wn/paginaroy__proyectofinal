@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #f5f5f5;
+  background: linear-gradient(#141414, #202020, #272727);
+  margin: auto;
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  background-color: #15151ad7;
+}
+nav div {
+  margin: 4px;
+}
+nav div ul li {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.row {
+  padding: 10px;
+}
+
+.musica {
+  display: none;
+}
+
+footer {
+  text-align: center;
+}
+
+.rrss p {
+  font-size: 15px;
+}
+
+.introducciontexto {
+  text-align: center;
+  padding: 40px;
+}
+
+.nuestrahcontent {
+  width: 50%;
+  text-align: center;
+}
+.nuestrahcontent .row {
+  text-align: center;
+}
+.nuestrahcontent div {
+  padding: 10px;
+  margin: auto;
+}
+.nuestrahcontent div img {
+  width: 350px;
+  height: 350px;
+}
