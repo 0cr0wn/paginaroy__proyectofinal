@@ -11,14 +11,14 @@ body{
 
 }
 nav{
-    background-color: #15151ad7;
+    background-color: #050505d7;
     div{
         margin: 4px;
     }div{
         ul{
           li{
               padding: 20px;
-              font-size: 20px;
+              font-size: 30px;
           }
         }
     }
@@ -32,6 +32,7 @@ nav{
 }
 footer{
     text-align: center;
+    background-color: #000000;
 }
 .rrss{
     p{
@@ -58,5 +59,7 @@ footer{
    }
   }
 }
-
+.container-fluid{
+    padding: 10px;
+}
 

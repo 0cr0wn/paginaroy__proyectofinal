@@ -12,14 +12,14 @@ body {
 }
 
 nav {
-  background-color: #15151ad7;
+  background-color: #050505d7;
 }
 nav div {
   margin: 4px;
 }
 nav div ul li {
   padding: 20px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .row {
@@ -32,6 +32,7 @@ nav div ul li {
 
 footer {
   text-align: center;
+  background-color: #000000;
 }
 
 .rrss p {
@@ -57,4 +58,8 @@ footer {
 .nuestrahcontent div img {
   width: 350px;
   height: 350px;
+}
+
+.container-fluid {
+  padding: 10px;
 }
