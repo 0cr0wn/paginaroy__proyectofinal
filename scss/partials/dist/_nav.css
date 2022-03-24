@@ -1,0 +1,10 @@
+nav {
+  background-color: #050505d7;
+}
+nav div {
+  margin: 4px;
+}
+nav div ul li {
+  padding: 20px;
+  font-size: 30px;
+}

@@ -1,39 +1,30 @@
+@import "./partials/footer";
+@import "./partials/nav";
+@import "./partials/variables";
+
+//codigo css
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     color: #f5f5f5;
     background: linear-gradient(#141414, #202020, #272727);
     margin: auto;
-    font-family: 'Inter', sans-serif;
+    font-family: $base-font;
 
 }
-nav{
-    background-color: #050505d7;
-    div{
-        margin: 4px;
-    }div{
-        ul{
-          li{
-              padding: 20px;
-              font-size: 30px;
-          }
-        }
-    }
-}
+
 .row{
     padding: 10px;
 
 }
 .musica{
-    display: none;
+    display: $oculto;
 }
-footer{
-    text-align: center;
-    background-color: #000000;
-}
+
 .rrss{
     p{
         font-size: 15px;
@@ -54,8 +45,8 @@ footer{
      padding: 10px;
      margin: auto;
    img{
-      width: 350px;
-      height: 350px;
+      width: $size-card;
+      height: $size-card;
    }
   }
 }

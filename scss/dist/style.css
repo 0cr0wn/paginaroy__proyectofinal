@@ -1,14 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  color: #f5f5f5;
-  background: linear-gradient(#141414, #202020, #272727);
-  margin: auto;
-  font-family: "Inter", sans-serif;
+footer {
+  text-align: center;
+  background-color: #000000;
 }
 
 nav {
@@ -22,17 +14,25 @@ nav div ul li {
   font-size: 30px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #f5f5f5;
+  background: linear-gradient(#141414, #202020, #272727);
+  margin: auto;
+  font-family: "Inter", sans-serif;
+}
+
 .row {
   padding: 10px;
 }
 
 .musica {
   display: none;
-}
-
-footer {
-  text-align: center;
-  background-color: #000000;
 }
 
 .rrss p {
