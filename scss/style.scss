@@ -2,12 +2,11 @@
 @import "./partials/nav";
 @import "./partials/variables";
 
-@mixin imagen() {
-    width:$size-img;
-    height:$size-img;
-    width:50%;
-    text-align: center;
-    background-color: $bg-negro;
+@mixin sizesimg($width, $height) {
+    height: $height;
+    width: $width;
+    
+
     
 }
 
@@ -70,5 +69,8 @@ body{
     width: 100%;
 }
 .fotos{
-    @include imagen()
+   
+    @extend .contacto;
+    @include sizesimg(100%,100% )
+    
 }
