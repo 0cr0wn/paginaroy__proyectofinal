@@ -2,6 +2,15 @@
 @import "./partials/nav";
 @import "./partials/variables";
 
+@mixin imagen() {
+    width:$size-img;
+    height:$size-img;
+    width:50%;
+    text-align: center;
+    background-color: $bg-negro;
+    
+}
+
 //codigo css
 *{
     margin: 0;
@@ -10,7 +19,7 @@
 }
 
 body{
-    color: #f5f5f5;
+    color: $tc-blanco;
     background: linear-gradient(#141414, #202020, #272727);
     margin: auto;
     font-family: $base-font;
@@ -38,6 +47,9 @@ body{
 .nuestrahcontent{
    width:50%;
    text-align: center;
+   background-color: $bg-negro;
+   
+
 .row{
     text-align: center;
 }
@@ -53,4 +65,10 @@ body{
 .container-fluid{
     padding: 10px;
 }
-
+.contacto{
+    @extend .nuestrahcontent;
+    width: 100%;
+}
+.fotos{
+    @include imagen()
+}
