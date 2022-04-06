@@ -37,11 +37,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="./nuestrahistoria.html">Nuestra Historia</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#dropdown-menu" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Discografia</a>
-              </li>
+              
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">EP Huir (2018)</a></li>
+                <li><a class="dropdown-item" href="./discografia.html">EP Huir (2018)</a></li>
               </ul>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#dropdown-menu" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -62,10 +62,11 @@
       </nav>
     </header>
     <!--CIERRE DE LOGO Y NAV-->
+    <!--contacto-->
     <main class="contacto">
         <h3>Llena tus datos!</h3>
         <fieldset class="col-12">
-            <legend>Contactanos</legend>
+            <legend>Contactanos!</legend>
             <form action="">
                 <div>
                     <label for="Name">Nombre y Apellido.</label>
@@ -74,13 +75,13 @@
                 <div>
                     <label for="email">Correo Electronico</label>
                     <input type="email" name="Email" placeholder="asd123@mail.com" required>
-                </div> <br>
+                </div> 
                 <div>
                     <label for="Genero">Genero</label>
                     <input type="radio" name="Genero" value="Hombre">Hombre
                     <input type="radio" name="Genero" value="Mujer">Mujer
                     <input type="radio" name="Genero" value="No binario">No binario
-                </div> <br>
+                </div> 
                 <div>
                     <label for="País">De donde eres?</label>
                     <select name="País" id="">
@@ -91,14 +92,14 @@
                         <option value="Uruguay">Uruguay</option>
                         <option value="Perú">Perú</option>
                     </select>
-                </div> <br>
+                </div>
                 <div>
                     <label for="Mensaje">Mensaje</label>
-                    <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
-                </div> <br>
+                    <textarea name="Mensaje" id="" cols="auto" rows="auto"></textarea>
+                </div> 
                 <div>
                     <Input type="submit" value="Enviar"></Input>
-                </div> <br>
+                </div> 
                 <div>
                     <Input type="reset" value="Limpiar campos"></Input>
                 </div>
@@ -106,15 +107,14 @@
         </fieldset>
     </main>
     <!--Pie de pagina-->
-    <footer class=" h-100">
+    <footer class="container-fluid h-100">
     <div class="rrss w-100">
         <a href="https://www.instagram.com/roybandav/" target="_blank"><img src="../media/logoinstagram.png" width="50px" alt="@roybandav"></a>
         <a href="https://open.spotify.com/artist/0igHJWIe47OUSt8YkL4OKa" target="_blank"><img src="../media/logospotify.png" width="50px" alt="spotify roy"></a>
         <a href="https://www.facebook.com/RoybandaV" target="_blank"><img src="../media/logofacebook.png" width="70px" alt="facebook RoybandaV"></a>
         <p>Todos los derechos reservados.</p>
     </div>
-    </footer>
-    
+    </footer>  
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="../js/wow.min.js"></script>

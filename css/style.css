@@ -22,37 +22,64 @@ body {
   font-family: "Inter", sans-serif; }
 
 .row {
-  padding: 10px; }
-
-.musica {
-  display: none; }
+  padding: 10px;
+  text-align: center; }
 
 .rrss p {
   font-size: 15px; }
 
-.introducciontexto {
-  text-align: center;
-  padding: 40px; }
+.introduccion {
+  background-color: #0000005a;
+  height: 100%;
+  margin-top: 100px; }
+  .introduccion .introducciontexto {
+    padding: 40px;
+    text-align: center; }
 
-.nuestrahcontent, .contacto, .fotos {
-  width: 50%;
+.nuestrahcontent, .fotos, .musica {
+  width: 100%;
   text-align: center;
   background-color: #000000; }
-  .nuestrahcontent .row, .contacto .row, .fotos .row {
-    text-align: center; }
-  .nuestrahcontent div, .contacto div, .fotos div {
-    padding: 10px;
-    margin: auto; }
-    .nuestrahcontent div img, .contacto div img, .fotos div img {
-      width: 350px;
-      height: 350px; }
+  .nuestrahcontent .row, .fotos .row, .musica .row {
+    padding: 0; }
+  .nuestrahcontent div, .fotos div, .musica div {
+    padding: 20px; }
+    .nuestrahcontent div img, .fotos div img, .musica div img {
+      width: 350px; }
+      .nuestrahcontent div img .img1__nuestraHistoria, .fotos div img .img1__nuestraHistoria, .musica div img .img1__nuestraHistoria {
+        height: 100vh; }
 
 .container-fluid {
   padding: 10px; }
 
-.contacto, .fotos {
-  width: 100%; }
+.contacto {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: black; }
+  .contacto div {
+    padding: 10px;
+    text-align: center; }
 
 .fotos {
   height: 100%;
   width: 100%; }
+
+.musica {
+  margin: 0 auto; }
+  .musica .row {
+    background-color: #1212128a;
+    padding: 50px; }
+    .musica .row td, .musica .row th {
+      padding: 10px; }
+    .musica .row ol {
+      list-style: none; }
+  .musica .portadahuir {
+    text-align: center;
+    width: 60%; }
+
+a {
+  text-decoration: none;
+  color: white; }
+  a:hover {
+    color: gray; }

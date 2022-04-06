@@ -9,6 +9,11 @@
 
     
 }
+@mixin bg-color($bg-color){
+    background-color: $bg-color;
+}
+    
+
 
 //codigo css
 *{
@@ -27,37 +32,46 @@ body{
 
 .row{
     padding: 10px;
+    text-align: $centro;
+}
 
-}
-.musica{
-    display: $oculto;
-}
 
 .rrss{
     p{
         font-size: 15px;
     }
 }
+.introduccion{
+    background-color:#0000005a;
+    height: 100%;
+    margin-top: 100px;
+    
 .introducciontexto{
-    text-align: center;
     padding: 40px;
+    text-align: $centro;
+    
 
+}
 }
 .nuestrahcontent{
-   width:50%;
-   text-align: center;
+   width:100%;
+   text-align: $centro;
    background-color: $bg-negro;
-   
+   .row{
+       padding: 0;
+    
+   }
+  div{ 
+      padding: 20px;
+     
 
-.row{
-    text-align: center;
-}
-  div{
-     padding: 10px;
-     margin: auto;
    img{
       width: $size-card;
-      height: $size-card;
+      
+      .img1__nuestraHistoria{
+          @extend .img !optional;
+          height: 100vh;
+      }
    }
   }
 }
@@ -65,12 +79,45 @@ body{
     padding: 10px;
 }
 .contacto{
-    @extend .nuestrahcontent;
     width: 100%;
+   margin:0 auto;
+   text-align: $centro;
+   @include bg-color(black);
+
+ div{
+     padding: 10px;
+     text-align: center
+ }
+    
 }
 .fotos{
-   
-    @extend .contacto;
+   @extend .nuestrahcontent;   
     @include sizesimg(100%,100% )
     
+}
+.musica{
+    @extend .nuestrahcontent;
+   margin:0 auto;
+   .row{
+    background-color: #1212128a;
+    padding: 50px;
+   td,th{
+       padding: 10px;
+   }
+    ol{
+        list-style: none;
+    }
+   }
+.portadahuir{
+    text-align: center;
+    width: 60%;
+}
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    &:hover{ color:gray;
+}
 }
