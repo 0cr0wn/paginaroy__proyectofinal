@@ -23,9 +23,9 @@
 }
 
 body{
+    overflow-x:hidden;
     color: $tc-blanco;
     background: linear-gradient(#141414, #202020, #272727);
-    margin: auto;
     font-family: $base-font;
 
 }
@@ -57,57 +57,108 @@ body{
    width:100%;
    text-align: $centro;
    background-color: $bg-negro;
-   .row{
-       padding: 0;
-    
-   }
+ 
   div{ 
       padding: 20px;
      
 
    img{
       width: $size-card;
+
       
       .img1__nuestraHistoria{
-          @extend .img !optional;
-          height: 100vh;
+          @extend .foto1;
+          
+          
       }
+      .img2__nuestraHistoria{
+        @extend .foto1;
+       
+        
+    }
+    .img3__nuestraHistoria{
+        @extend .foto1;
+        
+        
+    }
    }
   }
 }
 .container-fluid{
+    
     padding: 10px;
 }
 .contacto{
     width: 100%;
+    padding: 20px;
    margin:0 auto;
    text-align: $centro;
    @include bg-color(black);
+input{
+    margin: 5px;
+}
 
  div{
      padding: 10px;
      text-align: center
  }
+ .boton{
+     border-radius: 5%;
+     border: none;
+   &:hover{
+     background-color: #000000;
+     color: white
+ }
+ }
+ 
     
 }
+
 .fotos{
    @extend .nuestrahcontent;   
-    @include sizesimg(100%,100% )
+    @include sizesimg(100%,100% );
+    .foto1{ margin: 0 auto;
+
+    &:hover{
+        transform: scale(1.1,1.1)
+    }
+    }
+    .foto2:hover{
+        @extend .foto1:hover
+    }
+    .foto3:hover{
+        @extend .foto1:hover;
+    }
+
     
 }
+.videos{
+    @extend .fotos;
+   
+    }
+    .video1{
+        padding: 5px
+    }
+    .video2{
+        @extend .video1
+    }
+
 .musica{
     @extend .nuestrahcontent;
    margin:0 auto;
    .row{
     background-color: #1212128a;
     padding: 50px;
-   td,th{
-       padding: 10px;
-   }
+    .tabla1{
+        margin:0 auto;
+    }
+    
     ol{
         list-style: none;
+        margin: 0 auto;
     }
-   }
+}
+
 .portadahuir{
     text-align: center;
     width: 60%;

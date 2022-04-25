@@ -11,7 +11,7 @@ nav div {
 }
 nav div ul li {
   padding: 15px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 * {
@@ -21,9 +21,9 @@ nav div ul li {
 }
 
 body {
+  overflow-x: hidden;
   color: #f5f5f5;
   background: linear-gradient(#141414, #202020, #272727);
-  margin: auto;
   font-family: "Inter", sans-serif;
 }
 
@@ -46,21 +46,18 @@ body {
   text-align: center;
 }
 
-.nuestrahcontent, .musica, .fotos {
+.nuestrahcontent, .musica, .fotos, .videos {
   width: 100%;
   text-align: center;
   background-color: #000000;
 }
-.nuestrahcontent .row, .musica .row, .fotos .row {
-  padding: 0;
-}
-.nuestrahcontent div, .musica div, .fotos div {
+.nuestrahcontent div, .musica div, .fotos div, .videos div {
   padding: 20px;
 }
-.nuestrahcontent div img, .musica div img, .fotos div img {
+.nuestrahcontent div img, .musica div img, .fotos div img, .videos div img {
   width: 350px;
 }
-.nuestrahcontent div img .img1__nuestraHistoria, .musica div img .img1__nuestraHistoria, .fotos div img .img1__nuestraHistoria {
+.nuestrahcontent div img .img1__nuestraHistoria, .musica div img .img1__nuestraHistoria, .fotos div img .img1__nuestraHistoria, .videos div img .img1__nuestraHistoria {
   height: 100vh;
 }
 
@@ -79,9 +76,12 @@ body {
   text-align: center;
 }
 
-.fotos {
+.fotos, .videos {
   height: 100%;
   width: 100%;
+}
+.fotos .foto1:hover, .videos .foto1:hover {
+  transform: scale(1.1, 1.1);
 }
 
 .musica {
@@ -91,11 +91,12 @@ body {
   background-color: #1212128a;
   padding: 50px;
 }
-.musica .row td, .musica .row th {
-  padding: 10px;
+.musica .row .tabla1 {
+  margin: 0 auto;
 }
 .musica .row ol {
   list-style: none;
+  margin: 0 auto;
 }
 .musica .portadahuir {
   text-align: center;
