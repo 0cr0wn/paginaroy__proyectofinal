@@ -19,7 +19,8 @@ body {
   overflow-x: hidden;
   color: #f5f5f5;
   background: linear-gradient(#141414, #202020, #272727);
-  font-family: "Inter", sans-serif; }
+  font-family: "Inter", sans-serif;
+  width: 100%; }
 
 .row {
   padding: 10px;
@@ -80,6 +81,8 @@ body {
 .musica {
   margin: 0 auto; }
   .musica .row {
+    margin: 0 auto;
+    width: 100%;
     background-color: #1212128a;
     padding: 50px; }
     .musica .row .tabla1 {

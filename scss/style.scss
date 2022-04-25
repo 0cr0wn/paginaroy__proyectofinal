@@ -27,6 +27,7 @@ body{
     color: $tc-blanco;
     background: linear-gradient(#141414, #202020, #272727);
     font-family: $base-font;
+    width: 100%;
 
 }
 
@@ -118,6 +119,7 @@ input{
    @extend .nuestrahcontent;   
     @include sizesimg(100%,100% );
     .foto1{ margin: 0 auto;
+            
 
     &:hover{
         transform: scale(1.1,1.1)
@@ -147,6 +149,8 @@ input{
     @extend .nuestrahcontent;
    margin:0 auto;
    .row{
+    margin: 0 auto;
+    width: 100%;
     background-color: #1212128a;
     padding: 50px;
     .tabla1{
