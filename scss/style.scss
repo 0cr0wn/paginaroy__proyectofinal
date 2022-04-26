@@ -34,6 +34,7 @@ body{
 .row{
     padding: 10px;
     text-align: $centro;
+    margin: 0 auto;
 }
 
 
@@ -119,7 +120,7 @@ input{
    @extend .nuestrahcontent;   
     @include sizesimg(100%,100% );
     .foto1{ margin: 0 auto;
-        padding: 10px;
+        
             
 
     &:hover{
@@ -130,7 +131,7 @@ input{
         @extend .foto1:hover
     }
     .foto3:hover{
-        @extend .foto1:hover;
+        @extend .foto2:hover
     }
 
     
@@ -153,9 +154,9 @@ input{
     margin: 0 auto;
     width: 100%;
     background-color: #1212128a;
-    padding: 50px;
-    .tabla1{
-        margin:0 auto;
+        .tabla1{
+    width: 100px;
+        
     }
     
     ol{
@@ -176,4 +177,7 @@ a{
     color: white;
     &:hover{ color:gray;
 }
+}
+ol{
+    padding: 0;
 }

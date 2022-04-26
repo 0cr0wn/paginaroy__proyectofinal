@@ -24,7 +24,8 @@ body {
 
 .row {
   padding: 10px;
-  text-align: center; }
+  text-align: center;
+  margin: 0 auto; }
 
 .rrss p {
   font-size: 15px; }
@@ -71,8 +72,7 @@ body {
   height: 100%;
   width: 100%; }
   .fotos .foto1, .videos .foto1, .nuestrahcontent div img .fotos .img1__nuestraHistoria, .nuestrahcontent div img .videos .img1__nuestraHistoria, .fotos div img .img1__nuestraHistoria, .videos div img .img1__nuestraHistoria, .musica div img .fotos .img1__nuestraHistoria, .musica div img .videos .img1__nuestraHistoria, .nuestrahcontent div img .fotos .img2__nuestraHistoria, .nuestrahcontent div img .videos .img2__nuestraHistoria, .fotos div img .img2__nuestraHistoria, .videos div img .img2__nuestraHistoria, .musica div img .fotos .img2__nuestraHistoria, .musica div img .videos .img2__nuestraHistoria, .nuestrahcontent div img .fotos .img3__nuestraHistoria, .nuestrahcontent div img .videos .img3__nuestraHistoria, .fotos div img .img3__nuestraHistoria, .videos div img .img3__nuestraHistoria, .musica div img .fotos .img3__nuestraHistoria, .musica div img .videos .img3__nuestraHistoria {
-    margin: 0 auto;
-    padding: 10px; }
+    margin: 0 auto; }
     .fotos .foto1:hover, .videos .foto1:hover, .nuestrahcontent div img .fotos .img1__nuestraHistoria:hover, .nuestrahcontent div img .videos .img1__nuestraHistoria:hover, .fotos div img .img1__nuestraHistoria:hover, .videos div img .img1__nuestraHistoria:hover, .musica div img .fotos .img1__nuestraHistoria:hover, .musica div img .videos .img1__nuestraHistoria:hover, .nuestrahcontent div img .fotos .img2__nuestraHistoria:hover, .nuestrahcontent div img .videos .img2__nuestraHistoria:hover, .fotos div img .img2__nuestraHistoria:hover, .videos div img .img2__nuestraHistoria:hover, .musica div img .fotos .img2__nuestraHistoria:hover, .musica div img .videos .img2__nuestraHistoria:hover, .nuestrahcontent div img .fotos .img3__nuestraHistoria:hover, .nuestrahcontent div img .videos .img3__nuestraHistoria:hover, .fotos div img .img3__nuestraHistoria:hover, .videos div img .img3__nuestraHistoria:hover, .musica div img .fotos .img3__nuestraHistoria:hover, .musica div img .videos .img3__nuestraHistoria:hover, .fotos .foto2:hover, .videos .foto2:hover, .fotos .foto3:hover, .videos .foto3:hover {
       transform: scale(1.1, 1.1); }
 
@@ -84,10 +84,9 @@ body {
   .musica .row {
     margin: 0 auto;
     width: 100%;
-    background-color: #1212128a;
-    padding: 50px; }
+    background-color: #1212128a; }
     .musica .row .tabla1 {
-      margin: 0 auto; }
+      width: 100px; }
     .musica .row ol {
       list-style: none;
       margin: 0 auto; }
@@ -100,3 +99,6 @@ a {
   color: white; }
   a:hover {
     color: gray; }
+
+ol {
+  padding: 0; }
